@@ -1,0 +1,44 @@
+Fox News:
+
+# of Headlines: 248
+
+"biden" appears 17 times
+"formula" appears 11 times
+"covid" appears 10 times
+"prices" appears 9 times
+"up" appears 9 times
+"shortage" appears 9 times
+"baby" appears 9 times
+"white" appears 8 times
+"who" appears 8 times
+"police" appears 8 times
+
+Washington Post:
+
+# of Headlines: 125
+
+"u" appears 11 times
+"it" appears 7 times
+"shooting" appears 6 times
+"trump" appears 5 times
+"buffalo" appears 5 times
+"covid" appears 5 times
+"up" appears 5 times
+"one" appears 5 times
+"who" appears 5 times
+"ukraine" appears 5 times
+
+News Max:
+
+294
+
+"biden" appears 5 times
+"should" appears 3 times
+"dhs" appears 3 times
+"or" appears 3 times
+"russia" appears 3 times
+"iran" appears 3 times
+"americans" appears 2 times
+"buffalo" appears 2 times
+"shooting" appears 2 times
+"war" appears 2 times

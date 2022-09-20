@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"BarGraph"},{"p":"<Unnamed>","l":"ComparisonGraph"},{"p":"<Unnamed>","l":"Graph"},{"p":"<Unnamed>","l":"HeadlineComparisons"},{"p":"<Unnamed>","l":"sortByCount"},{"p":"<Unnamed>","l":"WebScraper"},{"p":"<Unnamed>","l":"WordCount"}];updateSearchResults();

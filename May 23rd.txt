@@ -1,0 +1,44 @@
+Fox News:
+
+# of Headlines: 244
+
+"biden" appears 11 times
+"border" appears 9 times
+"man" appears 9 times
+"white" appears 9 times
+"police" appears 9 times
+"summer" appears 8 times
+"america" appears 8 times
+"calls" appears 7 times
+"who" appears 7 times
+"kids" appears 7 times
+
+Washington Post:
+
+# of Headlines: 123
+
+"russian" appears 5 times
+"show" appears 5 times
+"trump" appears 5 times
+"war" appears 4 times
+"covid" appears 4 times
+"all" appears 4 times
+"cases" appears 4 times
+"there" appears 4 times
+"man" appears 4 times
+"heat" appears 4 times
+
+News Max:
+
+# of Headlines: 269
+
+"biden" appears 6 times
+"ukraine" appears 3 times
+"putin" appears 3 times
+"percent" appears 2 times
+"russian" appears 2 times
+"war" appears 2 times
+"florida" appears 2 times
+"america" appears 2 times
+"group" appears 2 times
+"worried" appears 2 times
