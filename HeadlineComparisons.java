@@ -14,29 +14,25 @@ public class HeadlineComparisons {
       WebScraper WP = new WebScraper("https://www.washingtonpost.com/");
       WebScraper FN = new WebScraper("https://www.foxnews.com/");
       WebScraper NM = new WebScraper("https://www.newsmax.com/");
-      WebScraper NPR = new WebScraper("https://www.npr.org/"); 
-      WebScraper CBS = new WebScraper("https://www.cbsnews.com/");  
+      WebScraper NPR = new WebScraper("https://www.npr.org/");   
       
       results( FN, FN.scanTitles() );
-      barGraph( FN, "Fox News", FN.getHeadlines().size() );
+      barGraph(FN, "Fox News", FN.getHeadlines().size());
       //print(10, "Fox News", FN);
       
       results( WP, WP.scanHeadlines() );
-      barGraph( WP, "Washington Post", WP.getHeadlines().size() );
+      barGraph(WP, "Washington Post", WP.getHeadlines().size());
       //print(10, "Washington Post", WP);
       
       results( NM, NM.scanFrontHead() );
-      barGraph( NM, "News Max", NM.getHeadlines().size() );
+      barGraph(NM, "News Max", NM.getHeadlines().size());
       //print(10, "News Max", NM);
       
       results( NPR, NPR.scanTitles() );
-      barGraph( NPR, "NPR", NPR.getHeadlines().size() );
+      barGraph(NPR, "NPR", NPR.getHeadlines().size());
       //print(10, "NPR", NPR);
       
-      results( CBS, CBS.scanHed() );
-      barGraph( CBS, "CBS", CBS.getHeadlines().size() );
-      
-      comparisonGraph(WP, NPR, FN, NM, CBS, "queen");
+      comparisonGraph(WP, NPR, FN, NM, "biden");
       
    }
    
@@ -93,7 +89,7 @@ public class HeadlineComparisons {
     * @param NM - the WebScraper object for News Max
     * @param keyWord - the word that will be compared among every news site
     */
-   public static void comparisonGraph(WebScraper WP, WebScraper NPR, WebScraper FN, WebScraper NM, WebScraper CBS, String keyWord) {
+   public static void comparisonGraph(WebScraper WP, WebScraper NPR, WebScraper FN, WebScraper NM, String keyWord) {
       int height = WP.findCount(keyWord);
       if ( FN.findCount(keyWord) > height ) {
          height = FN.findCount(keyWord);
@@ -104,7 +100,7 @@ public class HeadlineComparisons {
       if ( NPR.findCount(keyWord) > height ) {
          height = NPR.findCount(keyWord);
       }
-      Graph comparison = new ComparisonGraph( keyWord, 5, height, FN, WP, NM, NPR, CBS );
+      Graph comparison = new ComparisonGraph( keyWord, 4, height, FN, WP, NM, NPR );
       comparison.draw();
    } 
 }
