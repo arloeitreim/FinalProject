@@ -34,6 +34,11 @@ public class WebScraper {
       return site.getElementsByClass("nmNewsfrontHead");
    }
    
+   // new headline scanner for issue #1
+   public Elements scanHed() {
+      return site.getElementsByClass("item__hed");
+   }
+   
    /**
     * gets headlines from The Washington Post
     * @return The Washington Post's headlines in element form
@@ -159,7 +164,7 @@ public class WebScraper {
                      "be", "why", "more", "2022", "removed", "exclusive", "s", "t", "c", "not", "u", "it", "they", "their", "by", "into", "one",
                      "d", "but", "sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "no", "up", "fox", "all", "there",
                      "show", "so", "live", "we", "far", "have", "like", "long", "tv", "year", "faces", "yo", "—", "o", "here", "now", "during",
-                     "way", "top", "our", "week", "shows", "off", "first", "june", "jan", "who", "than"};
+                     "way", "top", "our", "week", "shows", "off", "first", "june", "jan", "who", "than", "60", "cbs"};
                      
    // Removes words from counter if they are present in the above String[]
    List<String> junk = new ArrayList<String>( Arrays.asList(junkArray) ); // convert junkArray into an ArrayList
