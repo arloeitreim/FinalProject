@@ -15,7 +15,6 @@ public class HeadlineComparisons {
       WebScraper FN = new WebScraper("https://www.foxnews.com/");
       WebScraper NM = new WebScraper("https://www.newsmax.com/");
       WebScraper NPR = new WebScraper("https://www.npr.org/"); 
-      // new website for issue #1
       WebScraper CBS = new WebScraper("https://www.cbsnews.com/");  
       
       results( FN, FN.scanTitles() );
@@ -34,7 +33,6 @@ public class HeadlineComparisons {
       barGraph( NPR, "NPR", NPR.getHeadlines().size() );
       //print(10, "NPR", NPR);
       
-      // for issue #1
       results( CBS, CBS.scanHed() );
       barGraph( CBS, "CBS", CBS.getHeadlines().size() );
       
