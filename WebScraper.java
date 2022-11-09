@@ -34,6 +34,7 @@ public class WebScraper {
       return site.getElementsByClass("nmNewsfrontHead");
    }
    
+   // new headline scanner for issue #1
    public Elements scanHed() {
       return site.getElementsByClass("item__hed");
    }
